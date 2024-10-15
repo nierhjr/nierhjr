@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manage Students </title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <h1>Manage  Students</h1>
+      <form id="studentForm">
+        <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+        <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+        <input type="date" id="date_of_birth" required>
+        <input type="text" id="grade" placeholder="Grade" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <button type="submit">Add Student</button>
+      </form>
+      <h2>Student List</h2>
+      <ul id="studentList"></ul>
+    </body>
+</html>
